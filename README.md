@@ -26,8 +26,9 @@ chmod +x install.sh
 ```
 
 ## Basic mappings
-- space + ee: open neotree
+- space + b: open neotree
 - space + ff: search file
+- space + /: comment
 ## Basic commands
 - :w -> save file
 - :q -> quit neovim
