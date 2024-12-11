@@ -1,5 +1,5 @@
 # FOR LINUX
-
+## Install neovim
 ```bash
 # if you use ubuntu => install neovim using snap (recommend), flatpak
 snap install nvim --classic
@@ -12,27 +12,9 @@ source ~/.bashrc
 sudo pacman -S neovim
 ```
 
+## Clone config
 ```bash 
 # on linux
 git clone https://github.com/mew-11/nvim.git ~/.config/nvim && nvim
 ```
-
-You can use script
-```bash
-git clone https://github.com/mew-11/nvim.git
-cd nvim
-chmod +x install.sh
-./install.sh
-```
-
-## Basic mappings
-- space + b: open neotree
-- space + ff: search file
-- space + /: comment
-## Basic commands
-- :w -> save file
-- :q -> quit neovim
-- :MasonInstall `name_mason` -> all name => :Mason
-  eg: MasonInstall clangd
-- ctrl + h,j,k,l => move right, down, up, left
 
