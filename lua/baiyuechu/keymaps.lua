@@ -61,12 +61,6 @@ map("n", "<C-Down>", ":resize +3<CR>")
 map("n", "<C-Left>", ":vertical resize -3<CR>")
 map("n", "<C-Right>", ":vertical resize +3<CR>")
 
--- Barbar
-map("n", "<Tab>", ":BufferNext<CR>", { desc = "Move to next tab", noremap = true })
-map("n", "<S-Tab>", ":BufferPrevious<CR>", { desc = "Move to previous tab", noremap = true })
-map("n", "<leader>x", ":BufferClose<CR>", { desc = "Buffer close", noremap = true })
-map("n", "<A-p>", ":BufferPin<CR>", { desc = "Pin buffer", noremap = true })
-
 -- Telescope
 map("n", "<leader>ff", "<cmd>Telescope find_files<cr>", { desc = "Telescope find_files", noremap = true })
 map("n", "<leader>fg", "<cmd>Telescope live_grep<cr>", { desc = "Telescope live_grep", noremap = true })

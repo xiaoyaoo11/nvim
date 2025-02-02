@@ -1,8 +1,8 @@
 return {
 	"nvim-pack/nvim-spectre",
-    cmd = "Spectre",
+	cmd = "Spectre",
 	keys = { -- only load the plugin on these keymaps
-		{ "<leader-S>", "<CMD>Spectre <CR>" },
+		{ "<leader-S>", "<CMD>Spectre<CR>" },
 	},
 	config = function()
 		require("spectre").setup()
