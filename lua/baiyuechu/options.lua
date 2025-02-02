@@ -5,6 +5,7 @@ opt.relativenumber = false
 opt.number = true
 opt.showtabline = 2
 opt.cmdheight = 0
+opt.laststatus = 3
 
 -- tabs & indentation
 opt.tabstop = 4
