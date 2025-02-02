@@ -1,21 +1,12 @@
 return {
-	"folke/tokyonight.nvim",
+	"craftzdog/solarized-osaka.nvim",
 	lazy = false,
 	priority = 1000,
+	opts = {},
 	config = function()
-		require("tokyonight").setup({
-			style = "night",
+		require("solarized-osaka").setup({
 			transparent = false,
-			-- terminal_colors = true,
-			styles = {
-				sidebars = "dark",
-				floats = "dark",
-				comments = { italic = true },
-				keywords = { italic = true },
-				functions = { italic = true },
-				variables = { italic = true },
-			},
 		})
-		vim.cmd[[colorscheme tokyonight]]
+		vim.cmd([[colorscheme solarized-osaka]])
 	end,
 }
